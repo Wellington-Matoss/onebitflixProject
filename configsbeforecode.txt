@@ -1,9 +1,12 @@
-- Executar as migrates: npx sequelize-cli db:migrate
+- Todo:
 - ordem de criação e execução: categories, course, episodes, usuários.
 
-- Atualizar a node_modules
-
 - Cuidado com a parte do admin
+
+
+Comandos:
+
+npx sequelize-cli db:migrate
 
 Rodando as seeders
 npx sequelize-cli db:seed:all
@@ -12,4 +15,5 @@ Deletando as seeders
 npx sequelize-cli db:undo:all
 
 
+git checkout outhome
 git push https://github.com/Wellington-Matoss/onebitflixProject.git outhome
