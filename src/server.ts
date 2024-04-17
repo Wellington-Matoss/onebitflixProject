@@ -1,11 +1,14 @@
-// src/server.ts
-
 import express from 'express'
+import { database } from './database'
 
 const app = express()
 
-const PORT = process.env.PORT || 3000
+const PORT = process.env.port || 3000
 
 app.listen(PORT, () => {
-  console.log(`Servidor iniciado na porta: ${PORT}`)
+  database.authenticate().then(() => {
+    console.log('Bando de dados conectado.')
+  })
+
+  console.log(`Servidor iniciado na porta:${PORT}.`)
 })

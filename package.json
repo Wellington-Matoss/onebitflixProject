@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts",
-    "db": "C:\\\"Program Files\"\\PostgreSQL\\16\\scripts\\runpsql.bat"
+    "dev": "ts-node-dev --transpile-only --ignore-watch node_modules src/server.ts"
   },
   "keywords": [],
   "author": "",
