@@ -1,0 +1,12 @@
+- Executar as migrates: npx sequelize-cli db:migrate
+- ordem de criação e execução: categories, course, episodes, usuários.
+
+- Atualizar a node_modules
+
+- Cuidado com a parte do admin
+
+Rodando as seeders
+npx sequelize-cli db:seed:all
+
+Deletando as seeders
+npx sequelize-cli db:undo:all
