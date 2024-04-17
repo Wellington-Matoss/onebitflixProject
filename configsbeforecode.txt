@@ -10,3 +10,6 @@ npx sequelize-cli db:seed:all
 
 Deletando as seeders
 npx sequelize-cli db:undo:all
+
+
+git push https://github.com/Wellington-Matoss/onebitflixProject.git outhome
