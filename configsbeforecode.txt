@@ -1,19 +1,17 @@
-- Todo:
-- ordem de criação e execução: categories, course, episodes, usuários.
-
-- Cuidado com a parte do admin
+            -- Todo --
 
 
-Comandos:
 
+            -- Comandos sequelize --
 npx sequelize-cli db:migrate
 
-Rodando as seeders
 npx sequelize-cli db:seed:all
 
-Deletando as seeders
 npx sequelize-cli db:undo:all
 
 
+
+            -- Comandos git --
 git checkout outhome
+git pull https://github.com/Wellington-Matoss/onebitflixProject.git 
 git push https://github.com/Wellington-Matoss/onebitflixProject.git outhome

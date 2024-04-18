@@ -8,10 +8,10 @@ import { User } from './User'
 // HasMany: Tem muitos
 // BelongsTo: Pertence a algo
 
-Category.hasMany(Course)
+Category.hasMany(Course, { as: 'courses' })
 
 Course.belongsTo(Category)
-Course.hasMany(Episode)
+Course.hasMany(Episode, { as: 'episodes' })
 
 Episode.belongsTo(Course)
 
